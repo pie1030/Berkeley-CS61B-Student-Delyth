@@ -43,9 +43,9 @@ public class NBody {
         for (Planet planet : planets) {
             planet.draw();
         }
-        enableDoubleBuffering();
-        enableDoubleBuffering();
-        show();
+        // enableDoubleBuffering();
+        // enableDoubleBuffering();
+        // show();
         double time = 0.0;
     }
 }
